@@ -1,0 +1,1 @@
+gcc  -O3 -g -Wno-return-type -Wno-parentheses -fsanitize=address  -ftrapv smt_lang.c smt_lang_flex.c smt_lang.tab.c main.c -o test.out
